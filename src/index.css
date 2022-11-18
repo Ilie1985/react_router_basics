@@ -281,3 +281,6 @@ ul {
 .link {
   color: var(--grey-500);
 }
+.active {
+  color: var(--primary-500);
+}

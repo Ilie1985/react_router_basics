@@ -224,3 +224,9 @@ ul {
   letter-spacing: var(--letterSpacing);
   text-transform: capitalize;
 }
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}

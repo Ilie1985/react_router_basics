@@ -270,3 +270,11 @@ ul {
   max-width: var(--max-width);
   margin: 0 auto;
 }
+
+.navbar {
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+}

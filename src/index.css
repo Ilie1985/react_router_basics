@@ -278,3 +278,6 @@ ul {
   display: flex;
   gap: 1rem;
 }
+.link {
+  color: var(--grey-500);
+}

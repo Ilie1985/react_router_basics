@@ -1,10 +1,24 @@
 import React from "react"
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Products from './pages/Products';
 
 function App() {
   return (
-    <div className="App">
-     <h2>react 6</h2>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<div>home page</div>} />
+      <Route
+        path='testing'
+        element={
+          <div>
+            <h2>testing </h2>
+          </div>
+        }
+      />
+    </Routes>
+  </BrowserRouter>
   );
 }
 

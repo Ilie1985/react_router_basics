@@ -264,3 +264,9 @@ ul {
   margin: 0 auto;
   margin-top: -1rem;
 }
+.section {
+  padding: 2rem 0;
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}

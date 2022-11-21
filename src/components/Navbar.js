@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Outlet } from " react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import About from "../pages/About";
 import Home from "../pages/Home";
 import Products from "../pages/Products";
@@ -11,10 +11,10 @@ const Navbar = () => {
         Home
       </Link>
       <Link to="/about" >
-        Home
+        About
       </Link>
       <Link to="/products">
-        Home
+        Products
       </Link>
     </nav>
   );

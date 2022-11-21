@@ -1,12 +1,16 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Link, Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
-    <section className="section">
-      <h3> this is Home Page</h3>
-      <Outlet/>
-    </section>
+    <Fragment>
+      <Navbar />
+      <section className="section">
+     
+        <Outlet />
+      </section>
+    </Fragment>
   );
 };
 export default Home;

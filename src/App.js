@@ -9,7 +9,7 @@ import SharedLayout from "./pages/SharedLayout"
 function App() {
   return (
     <BrowserRouter>
-      <nav> our navbar</nav>
+      <nav> </nav>
       <Routes>
         <Route path="/" element={<SharedLayout/>}>
           <Route index element={<Home/>}/>
@@ -18,7 +18,7 @@ function App() {
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
-      <footer> our footer</footer>
+      <footer> </footer>
     </BrowserRouter>
   );
 }

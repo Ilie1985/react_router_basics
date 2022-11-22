@@ -12,7 +12,7 @@ const SingleProduct = () => {
   const { name, image } = product;
   return (
     <section className="section product">
-      <img src={image} alt="img" />
+      <img src={image} alt={name} />
       <h5>{name}</h5>
       <Link to="/products"> back to products page</Link>
     </section>
